@@ -1,0 +1,89 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0.2rem;
+  background: var(--primary-color);
+  color: #fffffe;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+nav .navlinks {
+  display: flex;
+  align-items: center;
+}
+
+nav .navlinks a {
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+nav .navlinks a:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+nav .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+nav .searchbar-container input {
+  width: 10rem;
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  transition: all 0.3s linear;
+}
+
+nav .searchbar-container input:focus {
+  width: 15rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+}
+
+nav .searchbar-container button {
+  margin-right: 1rem;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+nav .searchbar-container button:hover {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav .navlinks .navitems {
+    display: none;
+  }
+
+  nav .navlinks .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  nav .searchbar-container input:focus {
+    width: 11.5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  nav .navlinks {
+    display: none;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  nav .navlinks {
+    display: none;
+  }
+} */

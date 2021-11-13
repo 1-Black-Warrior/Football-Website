@@ -1,0 +1,120 @@
+.match-section {
+  height: 100%;
+  width: 100%;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white-color);
+  z-index: 10;
+  position: relative;
+  background: url("../assets/Images/match-stadium.jpg") no-repeat center
+    center/cover;
+}
+
+.match-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.match-section .match-logo {
+  width: 25rem;
+}
+
+.match-section .match-logo img {
+  width: 100%;
+}
+
+.match-section .match-info {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.match-section .match-info p {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.match-section .match-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.match-section .match-teams h1 {
+  font-size: 3.5rem;
+}
+
+.match-section .match-teams p {
+  font-size: 1.2rem;
+}
+
+.match-section .match-teams img {
+  margin: 0 2rem;
+  width: 150px;
+  height: 150px;
+}
+
+.match-section button {
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.match-section button:hover {
+  opacity: 0.89;
+}
+
+.match-section button:active {
+  transform: scale(0.98);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .match-section .match-logo {
+    width: 15rem;
+  }
+
+  .match-section .match-info p {
+    font-size: 0.8rem;
+  }
+
+  .match-section .match-teams {
+    text-align: center;
+  }
+
+  .match-section .match-teams h1 {
+    font-size: 1.2rem;
+  }
+
+  .match-section .match-teams p {
+    font-size: 1rem;
+  }
+
+  .match-section .match-teams img {
+    margin: 0 0.5rem;
+    width: 70px;
+    height: 70px;
+  }
+
+  .match-section button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.8rem;
+  }
+}

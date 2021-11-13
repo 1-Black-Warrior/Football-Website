@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/hero-section.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/news-section.css" />
+    <link rel="stylesheet" href="./css/match-section.css" />
+    <link rel="stylesheet" href="./css/store-section.css" />
+    <link rel="stylesheet" href="./css/upcoming-match-section.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/Images/logo.png" />
+    <title>Manchester United Website</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      :root {
+        --primary-color: #c70101;
+        --secondary-color: #fff22d;
+        --tertiary-color: #f2f2f2;
+        --white-color: #fffffe;
+        --gray-color: #707070;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <!-- logo + links -->
+      <div class="navlinks">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./assets/Images/logo.svg"
+            alt="Manchester United Logo"
+          />
+        </a>
+        <div class="navitems">
+          <a>Videos</a>
+          <a>News</a>
+          <a>Shop</a>
+          <a>Fixtures</a>
+          <a>Players</a>
+          <a>Tickets</a>
+        </div>
+      </div>
+      <!-- Searchbar at corner -->
+      <form class="searchbar-container">
+        <input type="text" placeholder="Search..." autocomplete="false" />
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+      <img src="./assets/Images/hero-1.webp" alt="hero-1">
+      <div class="hero-text" >
+        <h1>back with a bang</h1>
+        <div class="bottom-line">
+          <div>
+            <span>17 h</span>
+            <span>|</span>
+            <span>news</span>
+          </div>
+          <i class="fa fa-share-alt"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+      <!-- big news -->
+      <div class="big-news-container">
+        <div class="big-news-1">
+          <div class="news-img">
+            <img src="./assets/Images/news-1.jpg" alt="news-1" />
+          </div>
+          <div class="news-info">
+            <div>
+              <h1>ole's impressive record against pep</h1>
+              <p>
+                Stats show that Solskjaer is arguably the most effective
+                opponent the Catalan manager has faced.
+              </p>
+            </div>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="big-news-2">
+          <!-- 8/12 -->
+          <div class="news-img">
+            <img src="./assets/Images/news-2.webp" alt="news-2" />
+          </div>
+          <div class="news-info">
+            <i class="fab fa-youtube youtube-icon"></i>
+            <h1>United daily: derby days</h1>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- small news -->
+      <div class="small-news-container">
+        <div class="small-news">
+          <!-- Multiple very small cards -->
+          <div class="news-img">
+            <img src="./assets/Images/news-3.webp" alt="news-3" />
+          </div>
+          <div class="news-info">
+            <div>
+              <h1>Your goal of month winner is ...</h1>
+              <p>
+                United fans' favourite goal of October 2021 has been confirmed
+                and it's a belter!
+              </p>
+            </div>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="small-news">
+          <!-- Multiple very small cards -->
+          <div class="news-img">
+            <img src="./assets/Images/news-4.webp" alt="news-4" />
+          </div>
+          <div class="news-info">
+            <div>
+              <h1>Early team news for the derby</h1>
+              <p>
+                The latest from both camps as we set for Manchester City's visit
+                to Old Trafford on Saturday.
+              </p>
+            </div>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="small-news">
+          <!-- Multiple very small cards -->
+          <div class="news-img">
+            <img src="./assets/Images/news-5.jpg" alt="news-5" />
+          </div>
+          <div class="news-info">
+            <div>
+              <h1>Are these Sir Alex's best derbies</h1>
+              <p>
+                Our legendary former manager knew how to hurt Manchester City,
+                and these six victories were among his best.
+              </p>
+            </div>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="small-news">
+          <!-- Multiple very small cards -->
+          <div class="news-img">
+            <img src="./assets/Images/news-6.jpg" alt="news-6" />
+          </div>
+          <div class="news-info">
+            <div>
+              <h1>Mctominay goal was about more than just beating city</h1>
+              <p>
+                Read what our club journalists are thinking ahead of Saturday's
+                big game ...
+              </p>
+            </div>
+            <div class="bottom-line">
+              <div>
+                <span>17 h</span>
+                <span>|</span>
+                <span>news</span>
+              </div>
+              <i class="fa fa-share-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Match Score -->
+    <section class="match-section">
+        <!-- score overlay -->
+        <div class="match-logo" >
+          <img src="./assets/Images/match-logo.png" alt="match-logo" />
+        </div>
+        <div class="match-info" >
+          <p>Saturday 6 November 2021</p>
+          <p>Kick Off 18:00</p>
+        </div>
+        <div class="match-teams">
+          <h1>MAN UTD</h1>
+          <img src="./assets/Images/logo.png" alt="man utd" />
+          <p>vs</p>
+          <img src="./assets/Images/man-city-logo.png" alt="man city" />
+          <h1>MAN CITY</h1>
+        </div>
+        <button>Match Review</button>
+      </div>
+    </section>
+
+    <!-- Store + bgImg on section -->
+    <section class="store-section">
+      <div>
+        <h1>New Arrivals</h1>
+        <p>Enter the store</p>
+      </div>
+      <div class="products-container">
+        <div class="product">
+          <img src="./assets/Images/product1.jpg" alt="p1">
+          <p>Manchester United New Era Wordmark Bobble Knit Hat - Black - Kids</p>
+          <button>shop now</button>
+        </div> 
+        <div class="product">
+          <img src="./assets/Images/product1.jpg" alt="p1">
+          <p>Manchester United New Era Wordmark Bobble Knit Hat - Black - Kids</p>
+          <button>shop now</button>
+        </div> 
+        <div class="product">
+          <img src="./assets/Images/product1.jpg" alt="p1">
+          <p>Manchester United New Era Wordmark Bobble Knit Hat - Black - Kids</p>
+          <button>shop now</button>
+        </div> 
+        <div class="product">
+          <img src="./assets/Images/product1.jpg" alt="p1">
+          <p>Manchester United New Era Wordmark Bobble Knit Hat - Black - Kids</p>
+          <button>shop now</button>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Upcoming Matches  -->
+    <section class="upcoming-match-section">
+      <div class="header">
+        <h1>Matches</h1>
+        <p>All matches</p>
+      </div>
+      <div class="new-matches-container" >
+        <div class="match-card">
+          <img class="logo" src="./assets/Images/match-logo-dark.png" alt="match-logo">
+          <p>Wednesday 03 November 2021, <br>
+            01:30, Gewiss Stadium
+          </p>
+          <div class="score-info" >
+            <img src="./assets/Images/man-city-logo.png" alt="team-logo">
+            <button class="score">2-2</button>
+            <img src="./assets/Images/logo.png" alt="team-logo">
+          </div>
+          <button class="cta-btn">Match review</button>
+        </div>
+        <div class="match-card">
+          <img class="logo" src="./assets/Images/match-logo-dark.png" alt="match-logo">
+          <p>Wednesday 03 November 2021, <br>
+            01:30, Gewiss Stadium
+          </p>
+          <div class="score-info" >
+            <img src="./assets/Images/man-city-logo.png" alt="team-logo">
+            <button class="score">2-2</button>
+            <img src="./assets/Images/logo.png" alt="team-logo">
+          </div>
+          <button class="cta-btn">Match review</button>
+        </div>
+        <div class="match-card">
+          <img class="logo" src="./assets/Images/match-logo-dark.png" alt="match-logo">
+          <p>Wednesday 03 November 2021, <br>
+            01:30, Gewiss Stadium
+          </p>
+          <div class="score-info" >
+            <img src="./assets/Images/man-city-logo.png" alt="team-logo">
+            <button class="score">2-2</button>
+            <img src="./assets/Images/logo.png" alt="team-logo">
+          </div>
+          <button class="cta-btn">Match review</button>
+        </div>
+        <div class="match-card">
+          <img class="logo" src="./assets/Images/match-logo-dark.png" alt="match-logo">
+          <p>Wednesday 03 November 2021, <br>
+            01:30, Gewiss Stadium
+          </p>
+          <div class="score-info" >
+            <img src="./assets/Images/man-city-logo.png" alt="team-logo">
+            <button class="score">2-2</button>
+            <img src="./assets/Images/logo.png" alt="team-logo">
+          </div>
+          <button class="cta-btn">Match review</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- another hero section -->
+    <section class="hero-section">
+      <img src="./assets/Images/hero-2.webp" alt="hero-2">
+      <!-- <div class="img-overlay"></div> -->
+      <div class="hero-text hero-section-2-text" >
+        <h1>your chance to own a match worn united shirt</h1>
+        <div class="bottom-line">
+          <div>
+            <span>17 h</span>
+            <span>|</span>
+            <span>news</span>
+          </div>
+          <i class="fa fa-share-alt"></i>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <!-- companies -->
+      <div class="companies"></div>
+      <!-- <img class="companies" src="./assets/Images/companies.png" alt="companies"> -->
+      <div class="links">
+        <div class="social">
+          <!-- social links -->
+          <a>
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+        </div>
+        <div class="cta-btn" >
+          <!-- login and signup -->
+          <button class="login">login</button>
+          <button class="sign-up">sign up</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
